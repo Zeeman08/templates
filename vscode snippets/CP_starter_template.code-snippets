@@ -1,0 +1,39 @@
+{
+	"cp_starter_template": {
+  "prefix": "cp_starter_template",
+  "body": [
+    "#include <bits/stdc++.h>",
+    "#include <ext/pb_ds/assoc_container.hpp>",
+    "using namespace __gnu_pbds;",
+    "using namespace std;",
+    "#define ll long long",
+    "#define inf (1e18 + 100)",
+    "const int N = 510;",
+    "const int maxn = 100000;",
+    "const double eps = 1e-6;",
+    "//const ll maxn = 1e9+1;",
+    "const ll MOD = 1e9 + 7;",
+    "const double pi = acos(0) * 2;",
+    "#define dbg(a)  cerr << #a << \": \" << a << \"\\n\"",
+    "//#define endl '\\n';",
+    "template <typename T> using indexed_set = tree<T,null_type,less<T>,rb_tree_tag,",
+    "tree_order_statistics_node_update> ; // order_of_key(x) = # of elements smaller than the element x",
+    "",
+    "int main(){",
+    "",
+    "",
+    "    ios_base::sync_with_stdio(false);       ",
+    "    cin.tie(0);",
+    "    int tst = 1;",
+    "    cin >> tst;",
+    "    for(int tc = 1; tc <= tst; tc++) {",
+    "        ",
+    "",
+    "    }",
+    "    return 0;",
+    "}",
+    "                                                                "
+  ],
+  "description": "cp_starter_template"
+}
+}
